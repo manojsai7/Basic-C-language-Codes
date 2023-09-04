@@ -1,17 +1,19 @@
 #include <stdio.h>
-int main(){
+void main(){
  int age,
-  salary,job, house;
+  salary;
+int job; 
+int house;
 printf("Enter age\n");
 scanf("%d",&age);
 
 printf("Enter salary\n");
 scanf("%d",&salary);
 
-printf("Enter job\n");
+printf("Enter job : type '1' for yes '0' for no\n");
 scanf("%d",&job);
 
-printf("Enter house\n");
+printf("Enter house type '1' for yes '0' for no\n");
 scanf("%d",&house);
 
 if (age>=18&&age<=30)
