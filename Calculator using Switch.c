@@ -21,7 +21,7 @@ case 3:printf("Addition result :%d\n",a*b);
 break;
 case 4:printf("Addition result :%d\n",a/b);
 
-  //break;
+  break;
 
 default:printf("error dude!\n");
   break;
