@@ -1,3 +1,4 @@
+//just not being funny
 #include <stdio.h>
 void main(){
  int age,
